@@ -1,0 +1,71 @@
+/* Reset beberapa gaya default browser */
+body, h1, h2, h3, p, ul, li, a {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set latar belakang dan font */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+.ta-list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 20px;
+  max-width: 100%;
+}
+
+.ta-item {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 300px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin: 33px;
+}
+
+.ta-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.ta-item h2 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.ta-item p {
+  font-size: 14px;
+  color: #777;
+  margin-top: 5px;
+}
+
+/* Tampilan responsif */
+@media (max-width: 768px) {
+  .ta-list {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .ta-item {
+      width: 100%;
+  }
+}

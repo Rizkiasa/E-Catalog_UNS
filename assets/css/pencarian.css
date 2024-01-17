@@ -1,0 +1,66 @@
+/* Reset beberapa gaya default browser */
+body, h1, h2, h3, p, ul, li, form, input, label, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set latar belakang dan font */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 24px;
+}
+
+.search-form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Formulir pencarian */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Label input */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Tombol cari */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Efek hover tombol */
+button:hover {
+    background-color: #0056b3;
+}
